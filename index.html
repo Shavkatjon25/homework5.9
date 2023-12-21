@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-300 w-full h-[100vh] p-24">
+    <div class="continer flex flex-col">
+        <div class="bola1 flex justify-around">
+            <h2 class="font-mono font-bold text-[26px] rang">devfinder</h2>
+            <img src="./img/Group 5 (1).png" alt="" class="hidden h-5 cursor-pointer" id="kun"><img src="./img/Group 5.png" alt="" class="h-5 cursor-pointer" id="tun">
+        </div>
+        <div class="bola2 mr-auto ml-auto">
+            <form action="">
+                <input type="text" placeholder="🔍  Search GitHub username…" id="inp" class="p-5 w-[60vw] mt-3 rounded-2xl text-center rang">
+                <button class="absolute ml-[-90px] btn btn-primary mt-[1.3%] rang" id="btn">Search</button>
+            </form>
+        </div>
+        <div class="bola3 w-[65vw] rounded-3xl mt-6 h-[444px] p-10 flex mr-auto ml-auto bg-white">
+
+
+            <div class="w-[20vw] flex justify-around">
+                <img src="./img/Bitmap.png" alt="" class="w-36 h-36 rounded-[100%]" id="rasm">
+            </div>
+
+
+            <div class="w-[40vw] p-3">
+                <div class="flex justify-between">
+                    <div>
+                    <h2 class="font-mono font-bold text-[26px] rang" id="ism">The Octocat </h2>
+                    <a href="#" class="mt-1 mb-5 block font-mono font-medium text-[16px] text-[#0079FF]" id="log">@octocat</a>
+                    <p class="font-mono font-medium text-[15px] rang" id="bio">This profile has no bio</p>
+                    </div>
+                    <div>
+                        <p class="rang">Joined <samp id="paydo">25 Jan 2011</samp></p>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex justify-between mt-8 mb-[37px]  h-[85px] bg-[#F6F8FF] p-5 rounded-md">
+                        <div>
+                            <p class="rang">Repos</p>
+                            <h2 class="font-mono font-bold text-[22px] " id="rep">8</h2>
+                        </div>
+                        <div>
+                            <p class="rang">Followers</p>
+                            <h2 class="font-mono font-bold text-[22px] " id="flo">3938</h2>
+                        </div>
+                        <div>
+                            <p class="rang">Following</p>
+                            <h2 class="font-mono font-bold text-[22px]" id="flw">9</h2>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-2 gap-5 cursor-pointer">
+                        <div class="flex gap-2">
+                            <img src="./img/003-pin.svg" alt="">
+                            <p id="manz" class="rang">San Francisco</p>
+                        </div>
+                        <div class="cursor-pointer flex gap-2">
+                            <img src="./img/Path.png" alt="" class="w-5 h-5">
+                            <a href="#" id="qush" class="rang">Not Available</a>
+                        </div>
+                        <div class="flex gap-2 cursor-pointer">
+                            <img src="./img/002-url.svg" alt="">
+                            <a href="#" id="gt" class="rang">https://github.blog</a>
+                        </div>
+                        <div class="flex gap-2 cursor-pointer">
+                            <img src="./img/001-office-building.svg" alt="">
+                            <a href="#" id="manzil" class="rang">@github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sd"></div>
+    <script src="./main.js"></script>
+</body>
+</html>
